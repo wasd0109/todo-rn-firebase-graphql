@@ -10,7 +10,7 @@ const {
 
 const app = express();
 
-admin.initializeApp({ projectId: "rn-todo-full" });
+admin.initializeApp({ projectId: "rn-todo" });
 
 const db = admin.firestore();
 
